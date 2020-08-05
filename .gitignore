@@ -1,0 +1,3 @@
+setup_panorama/.terraform/plugins/windows_amd64/lock.json
+setup_panorama/.terraform/plugins/windows_amd64/terraform-provider-panos_v1.6.2_x4.exe
+.gitignore

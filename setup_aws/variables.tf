@@ -23,8 +23,8 @@
 //These S3 buckets need to be uniquie so please change
 variable s3bootstrapbuckets {
     default ={
-        "s3bucket_a" = "wmb-singlevpc-bootstrap-bucket-a"
-        "s3bucket_b" = "wmb-singlevpc-bootstrap-bucket-b"
+        "s3bucket_a" = "xxx-singlevpc-bootstrap-bucket-a"
+        "s3bucket_b" = "xxx-singlevpc-bootstrap-bucket-b"
     }
 }
 
@@ -48,7 +48,7 @@ variable aws_key {
 //SSH (FW ssh console)  and HTTPS (FW web console) Access IP addresses
 //This should be fairly restictive access
 variable ssh_https_access_cidr_blocks {
-    default = ["0.0.0.0/0", "104.139.103.65/32"]
+    default = ["0.0.0.0/0"]
 }
 
 
@@ -59,11 +59,11 @@ variable vpc_panorama_managment{
     description = "Management VPC id where Panorama is located."
     default ={
         "cidr" = "10.255.0.0/16"
-        "vpc_id"     = "vpc-041b4aeec82049a14"
-        "subnet_management_id_2a" = "subnet-0d6fa39509fa70612"
-        "subnet_management_id_2b" = "subnet-0f74c7d9d9938949d"
-        "panorama_management_route_table" = "rtb-0abf2bf95ce640950"
-        "panorama_sg" = "sg-0639b5408d1314d0d"
+        "vpc_id"     = "vpc-XXXXXX"
+        "subnet_management_id_2a" = "subnet-xxxxxxx"
+        "subnet_management_id_2b" = "subnet-xxxxxxxx"
+        "panorama_management_route_table" = "rtb-xxxxxx"
+        "panorama_sg" = "sg-xxxxxxxxx"
 
     }
 }
@@ -130,7 +130,7 @@ variable vpc_Example_Application {
     "FW_2a_Name"            = "SVPC_FW_2a"
     "Web_server_2a_Name"    = "SVPC_Web-server-2a"
     "Business_2a_Name"      = "SVPC_Business-2a"
-    "DB_2a_Name"                 = "SVPC_DB-2a"
+    "DB_2a_Name"            = "SVPC_DB-2a"
     "Mgmt_2a_Name"          = "SVPC_Mgmt-2a"
 
     "Public_2b_Name"        = "SVPC_Public_2b"

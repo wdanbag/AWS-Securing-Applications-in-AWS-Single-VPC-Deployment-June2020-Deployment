@@ -4,8 +4,8 @@
 variable primary_panorama{
     description = "Primary Panorama Information"
     default ={
-        "ip" = "52.43.132.147" //Primary IP address of the Panorama Server
-        "api_key" = "LUFRPT1kM29RUlZWUmcwTmU3bGpVK09xelppTnRjdk09VEhMeDdrL2EzM3gwZDNHbCs3c2REbVRUejROQmhzMlJpaUJQY3hTU2Y0eG5rdWRqR1cvakUzK1dqbVJrdmZlYQ==" //Generated API Key
+        "ip" = "X.X.X.X" //Primary IP address of the Panorama Server
+        "api_key" = "XXXXXXX" //Generated API Key
 
     }
 }
