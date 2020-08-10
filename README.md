@@ -3,7 +3,7 @@ The following terraform templates implement the Reference Architecture for Palo 
 
 # Single VPC Topology
 In the topology below everything but the Panorama Management VPC is create.  Communication between the Panorama Management VPC and Application VPC is via a created VPC Peering.
-![image TransitVPC](https://user-images.githubusercontent.com/55389530/89783663-52382a80-dae5-11ea-8ffe-203442b2ed3b.png)
+![image TransitVPC](https://user-images.githubusercontent.com/55389530/89411742-e8d6a700-d6f3-11ea-91b5-a0b66db69464.png)
 
 # Instructions
 Instructions for creating the VM-Series Single VPC Model can be found under the docs folder in Readme.docx.
